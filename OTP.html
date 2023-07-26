@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">>
+    <head>
+        <link rel="stylesheet" href="./css/OSD.css">
+        <style>
+        </style>
+        <script language="javascript" type="text/javascript">
+            function conform(){
+            var a=confirm("are you sure to proceed")
+            if(a){
+                alert("Go ahead")
+
+            }
+            else{
+                alert("Stop")
+            }
+        }
+        function reg(){
+            var b=confirm("Register")
+            if(b){
+                alert("ok")
+            }
+        }
+        </script>
+        <body style="background-color: aliceblue;width:auto;height: auto;margin: auto;" >
+            <div class="bod">
+            <!-- <p>Enter Your Number</p> -->
+            <div class="logincenter">
+                <input type="text" id="text" class="login" value="" placeholder ="Enter Your Number" onclick="isNumber()"><br>
+                <input type="text" placeholder="Enter your OTP"  class="OTP"><br>
+                <p class="TPP">By continuing, you agree to HSForms's Terms of Use and Privacy Policy.</p>
+                <a href="OTP.html" class="Submit">
+                <input type="button" value="Submit" class="button" onclick="conform()" ></a>
+                <br>
+                <!-- <a href="Login.html">
+                <button class="new" >Create a New Account?</button></a> -->
+            </div>
+            <div class="login2">
+                <br>
+                <Br>
+                <h1 class="log" >Login</h1>
+                <p class="par">Go To Your Orders,Wishlist and Bag.</p>
+
+            </div>
+            </div>
+            
+
+        </body>
+    </head>
+</html>
